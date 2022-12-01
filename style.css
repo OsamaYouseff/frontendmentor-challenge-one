@@ -47,7 +47,7 @@ body {
 .container .card .image {
   width: 940px;
     max-width: 100%;
-    background-image: url(../images/image-product-desktop.jpg);
+    background-image: url(images/image-product-desktop.jpg);
     background-size: cover;
 }
 @media (max-width: 767px) {
@@ -55,7 +55,7 @@ body {
     width: 370px;
     height: 230px;  
     max-width: 100%;
-    background-image: url(../images/image-product-mobile.jpg);
+    background-image: url(images/image-product-mobile.jpg);
     background-size: cover;
   }
 }
