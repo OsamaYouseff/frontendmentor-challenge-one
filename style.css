@@ -38,7 +38,7 @@ body {
   overflow: hidden;
 }
 @media (max-width: 767px) {
-  .container .card  {
+  .container .card {
     width: 330px;
     flex-direction: column;
     height: 600px;
@@ -46,16 +46,16 @@ body {
 }
 .container .card .image {
   width: 940px;
-    max-width: 100%;
-    background-image: url(../images/image-product-desktop.jpg);
-    background-size: cover;
+  max-width: 100%;
+  background-image: url(images/image-product-desktop.jpg);
+  background-size: cover;
 }
 @media (max-width: 767px) {
   .container .card .image {
     width: 370px;
-    height: 230px;  
+    height: 230px;
     max-width: 100%;
-    background-image: url(../images/image-product-mobile.jpg);
+    background-image: url(images/image-product-mobile.jpg);
     background-size: cover;
   }
 }
@@ -127,6 +127,6 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: red;  
+  color: red;
   text-decoration: none;
-} 
+}
