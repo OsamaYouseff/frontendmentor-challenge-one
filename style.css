@@ -17,83 +17,83 @@ body {
 }
 
 /* global variables */
-::root {
+:root {
   --mainColor: #1c232b;
   --secondColor: #777;
 }
 /* global variables */
 .container {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   place-content: center;
   background-color: #f3eae3;
 }
 .container .card {
-  width: 560px;
-  height: 400px;
+  width: 35rem;
+  height: 25rem;
   display: flex;
   background-color: white;
-  border-radius: 6px;
+  border-radius: .375rem;
   overflow: hidden;
 }
 @media (max-width: 767px) {
   .container .card {
-    width: 330px;
+    width: 20.625rem;
     flex-direction: column;
-    height: 600px;
+    height: 37.5rem;
   }
 }
 .container .card .image {
-  width: 940px;
+  width: 58.75rem;
   max-width: 100%;
   background-image: url(images/image-product-desktop.jpg);
   background-size: cover;
 }
 @media (max-width: 767px) {
   .container .card .image {
-    width: 370px;
-    height: 230px;
+    width: 23.125rem;
+    height: 14.375rem;
     max-width: 100%;
     background-image: url(images/image-product-mobile.jpg);
     background-size: cover;
   }
 }
 .container .card .details {
-  padding: 30px;
+  padding: 1.875rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 10px;
+  gap: .625rem;
 }
 .container .card .details p:first-child {
   color: #777;
-  font-size: 14px;
-  letter-spacing: 5px;
+  font-size: .875rem;
+  letter-spacing: .3125rem;
 }
 .container .card .details h2 {
   color: var(--mainColor);
-  font-size: 34px;
+  font-size: 2.125rem;
   font-weight: 700;
   font-family: "Fraunces", serif;
   line-height: 1;
 }
 .container .card .details .info {
-  font-size: 14px;
+  font-size: .875rem;
   color: #777;
   line-height: 1.5;
 }
 .container .card .details .price {
   font-family: "Fraunces", serif;
-  font-size: 34px;
+  font-size: 2.125rem;
   color: #3b7660;
   font-weight: bolder;
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 1.125rem;
 }
 .container .card .details .price span {
-  font-size: 13px;
+  font-size: .8125rem;
   color: #777;
   text-decoration: line-through;
   font-weight: 500;
@@ -102,10 +102,10 @@ body {
   text-align: center;
   display: block;
   width: 100%;
-  padding: 13px 10px;
+  padding: .8125rem .625rem;
   text-decoration: none;
   background-color: #3d8168;
-  border-radius: 6px;
+  border-radius: .375rem;
   color: white;
   transition: 0.35s;
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .container .card .button a svg {
-  margin-right: 5px;
+  margin-right: .3125rem;
 }
 
 .attribution {
@@ -122,8 +122,8 @@ body {
   bottom: 0;
   width: 100%;
   color: var(--mainColor);
-  font-size: 20px;
-  margin: 20px auto;
+  font-size: 1.25rem;
+  margin: 1.25rem auto;
   text-align: center;
 }
 .attribution a {
